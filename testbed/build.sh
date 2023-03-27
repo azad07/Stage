@@ -15,7 +15,7 @@ supressWarning=" -Wno-deprecated "
 # -fms-extensions 
 # -Wall -Werror
 includeFlags="-Isrc  -I../engine/src"
-linkerFlags="-L./../bin/ -lengine"
+linkerFlags="-L./../bin/ -lengine -lglfw -framework OpenGL"
 defines="-D_DEBUG -DNEXPORT"
 
 echo "$(tput setaf 3)Building $assembly...$(tput setaf 7)"
