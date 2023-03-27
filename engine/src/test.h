@@ -11,9 +11,11 @@
 
 #pragma once
 
+#include "defines.h"
+
 /**
 @brief
  *
  * @param num
  */
-void print_int(int num);
+NAPI void print_int(int num);

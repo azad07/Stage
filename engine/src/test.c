@@ -15,5 +15,5 @@
 
 void print_int(int num)
 {
-    printf("The Number is: %d\n", num);
+    printf("[ASAZ]The Number is: %d\n", num);
 }
